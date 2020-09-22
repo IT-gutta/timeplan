@@ -1,4 +1,4 @@
-console.log("hei")
+// console.log("hei")
 const canvas = document.querySelector("canvas")
 const c = canvas.getContext("2d")
 canvas.width = window.innerWidth
