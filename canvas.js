@@ -9,8 +9,8 @@ let h = canvas.height
 
 
 
-let a = w / 4
-let baseA = w / 4
+let a = w*h / 2000
+let baseA = w*h / 2000
 let inc = 0.1
 let moveStep = 0.001
 let offSet = 0
@@ -42,8 +42,7 @@ function resizeCanvas(){
     canvas.height = window.innerHeight
     w = canvas.width
     h = canvas.height
-    a = w / 4
-    baseA = a
+    baseA = w*h / 2000
 }
 
 
