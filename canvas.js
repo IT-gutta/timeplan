@@ -14,12 +14,12 @@ let inc = 0.1
 let moveStep = 0.001
 let offSet = 0
 let da = -0.5
+c.globalAlpha = 0.3
 
 function loop(){
     requestAnimationFrame(loop)
 
-    c.fillStyle = "black"
-    c.fillRect(0, 0, w, h)
+    c.clearRect(0, 0, w, h)
 
     a += da
     if(a < -baseA) da = 0.5
